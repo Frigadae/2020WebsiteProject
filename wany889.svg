@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+	<!-- Upper rectangle -->
+	<rect x="12" y="12" width="375" height="40" fill="black" />
+	
+	<!-- first D letter -->
+	<rect x="12" y="80" width="61" height="240" fill="black" />
+	<clipPath id="semicircle1">
+		<rect x="72" y="80" width="125" height="240"/>
+	</clipPath>
+	<circle cx="72" cy="200" r="120" fill="black" clip-path="url(#semicircle1)"/>
+	
+	<!-- Second D letter -->
+	<rect x="212" y="80" width="60" height="240" fill="black" />
+	<clipPath id="semicircle2">
+		<rect x="271" y="80" width="126" height="240" />
+	</clipPath>
+	<circle cx="272" cy="200" r="120" fill="black" clip-path="url(#semicircle2)"/>
+	
+	<!-- First milk drop -->
+	<polygon points="92,120 131,210 53,210" fill="white"/>
+	<circle cx="92" cy="220" r="40" fill="white"/>
+	
+	<!-- Second milk drop -->
+	<polygon points="292,120 331,210 253,210" fill="white"/>
+	<circle cx="292" cy="220" r="40" fill="white"/>
+	
+	<!-- Lower rectangle -->
+	<rect x="12" y="348" width="375" height="40" fill="black" />
+</svg>
+
